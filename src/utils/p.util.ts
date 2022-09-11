@@ -4,7 +4,8 @@ import { Board } from "../types/board.type";
  * Print the board on Terminal in a `Sudoku` format
  * @param board Sudoku board to be printed
  */
-export function p(board: Board) {
+export function p(board: Board): void {
+
     for (const y in board) {
         if (+y % 3 === 0 && +y > 0) {
             console.log('');
@@ -22,4 +23,6 @@ export function p(board: Board) {
 
         console.log(r);
     }
+
+    console.log(' ');
 }
