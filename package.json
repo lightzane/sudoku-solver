@@ -1,0 +1,15 @@
+{
+  "name": "sudoku-solver",
+  "version": "1.0.0",
+  "description": "Written `Typescript` code for solving sudoku puzzle.",
+  "scripts": {
+    "start": "nodemon src/main.ts --watch src",
+    "postinstall": "npm start"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
